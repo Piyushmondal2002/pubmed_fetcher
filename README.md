@@ -24,5 +24,25 @@ A Python command-line tool to fetch research papers from PubMed based on user qu
 3. **Install dependencies using Poetry:**
    poetry install
 
+4. ```markdown
+## Usage
 
+To fetch papers related to a specific query:
+
+```bash
+poetry run get-papers-list "your search query" -f output.csv -d
+eg:  poetry run python fetch_papers.py "cancer treatment" -f cancer2.csv
+
+** Definitions of the command**
+
+"your search query": The term you want to search for in PubMed.
+
+-f output.csv: (Optional) Specify the filename to save the results.
+
+-d: (Optional) Enable debug mode for detailed execution logs.
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
