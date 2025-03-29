@@ -2,7 +2,7 @@
 name = "pubmed-fetcher"
 version = "0.1.0"
 description = "Fetch research papers from PubMed."
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Pijush Mondal <pijushmondal900@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
